@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		942567371FBCCCA9004C667B /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942567361FBCCCA9004C667B /* PDFViewController.swift */; };
 		949D87AE1FBC9C44003F1BB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949D87AD1FBC9C44003F1BB9 /* AppDelegate.swift */; };
-		949D87B01FBC9C45003F1BB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949D87AF1FBC9C44003F1BB9 /* ViewController.swift */; };
 		949D87B31FBC9C45003F1BB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 949D87B11FBC9C45003F1BB9 /* Main.storyboard */; };
 		949D87B61FBC9C45003F1BB9 /* pdfkit_test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 949D87B41FBC9C45003F1BB9 /* pdfkit_test.xcdatamodeld */; };
 		949D87B81FBC9C45003F1BB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 949D87B71FBC9C45003F1BB9 /* Assets.xcassets */; };
 		949D87BB1FBC9C45003F1BB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 949D87B91FBC9C45003F1BB9 /* LaunchScreen.storyboard */; };
 		949D87C61FBC9C45003F1BB9 /* pdfkit_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949D87C51FBC9C45003F1BB9 /* pdfkit_testTests.swift */; };
 		949D87D11FBC9C45003F1BB9 /* pdfkit_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949D87D01FBC9C45003F1BB9 /* pdfkit_testUITests.swift */; };
+		949D87E01FBC9F15003F1BB9 /* PDFTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949D87DF1FBC9F15003F1BB9 /* PDFTableViewController.swift */; };
+		949D87E21FBCA0FB003F1BB9 /* PDFTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949D87E11FBCA0FB003F1BB9 /* PDFTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		942567361FBCCCA9004C667B /* PDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
 		949D87AA1FBC9C44003F1BB9 /* pdfkit-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pdfkit-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		949D87AD1FBC9C44003F1BB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		949D87AF1FBC9C44003F1BB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		949D87B21FBC9C45003F1BB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		949D87B51FBC9C45003F1BB9 /* pdfkit_test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = pdfkit_test.xcdatamodel; sourceTree = "<group>"; };
 		949D87B71FBC9C45003F1BB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +51,9 @@
 		949D87CC1FBC9C45003F1BB9 /* pdfkit-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pdfkit-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		949D87D01FBC9C45003F1BB9 /* pdfkit_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pdfkit_testUITests.swift; sourceTree = "<group>"; };
 		949D87D21FBC9C45003F1BB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		949D87DF1FBC9F15003F1BB9 /* PDFTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFTableViewController.swift; sourceTree = "<group>"; };
+		949D87E11FBCA0FB003F1BB9 /* PDFTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFTableViewCell.swift; sourceTree = "<group>"; };
+		949D87E41FBCA533003F1BB9 /* pdf-sample1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "pdf-sample1.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +104,16 @@
 		949D87AC1FBC9C44003F1BB9 /* pdfkit-test */ = {
 			isa = PBXGroup;
 			children = (
+				949D87E31FBCA254003F1BB9 /* PDFs */,
+				949D87DF1FBC9F15003F1BB9 /* PDFTableViewController.swift */,
 				949D87AD1FBC9C44003F1BB9 /* AppDelegate.swift */,
-				949D87AF1FBC9C44003F1BB9 /* ViewController.swift */,
 				949D87B11FBC9C45003F1BB9 /* Main.storyboard */,
 				949D87B71FBC9C45003F1BB9 /* Assets.xcassets */,
 				949D87B91FBC9C45003F1BB9 /* LaunchScreen.storyboard */,
 				949D87BC1FBC9C45003F1BB9 /* Info.plist */,
 				949D87B41FBC9C45003F1BB9 /* pdfkit_test.xcdatamodeld */,
+				949D87E11FBCA0FB003F1BB9 /* PDFTableViewCell.swift */,
+				942567361FBCCCA9004C667B /* PDFViewController.swift */,
 			);
 			path = "pdfkit-test";
 			sourceTree = "<group>";
@@ -126,6 +134,14 @@
 				949D87D21FBC9C45003F1BB9 /* Info.plist */,
 			);
 			path = "pdfkit-testUITests";
+			sourceTree = "<group>";
+		};
+		949D87E31FBCA254003F1BB9 /* PDFs */ = {
+			isa = PBXGroup;
+			children = (
+				949D87E41FBCA533003F1BB9 /* pdf-sample1.pdf */,
+			);
+			path = PDFs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +278,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				949D87B01FBC9C45003F1BB9 /* ViewController.swift in Sources */,
+				942567371FBCCCA9004C667B /* PDFViewController.swift in Sources */,
+				949D87E01FBC9F15003F1BB9 /* PDFTableViewController.swift in Sources */,
 				949D87AE1FBC9C44003F1BB9 /* AppDelegate.swift in Sources */,
+				949D87E21FBCA0FB003F1BB9 /* PDFTableViewCell.swift in Sources */,
 				949D87B61FBC9C45003F1BB9 /* pdfkit_test.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
